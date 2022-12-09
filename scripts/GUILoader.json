@@ -80,7 +80,7 @@
       "CheckStageOne": true
     },
     "CaveBotLoader": {
-      "Debugging": false,
+      "Debugging": true,
       "HotkeyPause": 1,
       "HotkeyToPause": "Page Up",
       "PriorityOne": 1,

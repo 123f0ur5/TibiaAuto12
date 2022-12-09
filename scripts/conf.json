@@ -1,6 +1,6 @@
 {
-  "configured": false,
-  "hwnd": 656390,
+  "configured": true,
+  "hwnd": 1049346,
   "preferences_name": "NewConfig.json",
   "platform": "windows"
 }
