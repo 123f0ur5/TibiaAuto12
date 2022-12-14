@@ -1,0 +1,12 @@
+[
+    {
+        "mark": "QuestionMark",
+        "type": 1,
+        "status": false
+    },
+    {
+        "mark": "CheckMark",
+        "type": 1,
+        "status": true
+    }
+]

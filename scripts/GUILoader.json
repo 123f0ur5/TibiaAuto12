@@ -4,7 +4,7 @@
       "CheckPrint": false,
       "CheckBuff": false,
       "LifeCheckStageOne": true,
-      "LifeCheckStageTwo": true,
+      "LifeCheckStageTwo": false,
       "LifeCheckStageThree": false,
       "CheckCureStats": false,
       "CheckParalyze": false,
@@ -13,7 +13,7 @@
       "CheckElectrify": false,
       "CheckMort": false,
       "CheckBlood": false,
-      "LifePercentageStageOne": 85,
+      "LifePercentageStageOne": 90,
       "LifeHotkeyStageOne": "F1",
       "LifePercentageStageTwo": 60,
       "LifeHotkeyStageTwo": "F2",
@@ -58,12 +58,16 @@
     "TimedSpellsLoader": {
       "CheckPrint": false,
       "InstantExecute": false,
-      "Hotkey": "Shift + F12",
+      "Hotkey": "F4",
       "CastEvery": "",
       "Spells": [
         [
-          "Shift + F12",
-          12
+          "F3",
+          2
+        ],
+        [
+          "F4",
+          2
         ]
       ]
     },
@@ -80,23 +84,23 @@
       "CheckStageOne": true
     },
     "CaveBotLoader": {
-      "Debugging": true,
+      "Debugging": false,
       "HotkeyPause": 1,
       "HotkeyToPause": "Page Up",
       "PriorityOne": 1,
       "PriorityTwo": 2,
       "PriorityThree": 3,
       "PriorityFour": 4,
-      "SelectedMonster": "Stonerefiner",
-      "SelectedMonster2": "CorymVanguard",
+      "SelectedMonster": "InfernalDemon",
+      "SelectedMonster2": "Brachiodemon",
       "SelectedMonster3": "Orc",
       "SelectedMonster4": "OrcWarrior",
       "SelectedAttackMode": "Full Attack",
       "AttackOne": true,
-      "AttackTwo": false,
+      "AttackTwo": true,
       "AttackThree": false,
       "AttackFour": false,
-      "Follow": true,
+      "Follow": false,
       "CantAttack": true,
       "AttackPlayers": true,
       "PlayerSeen": true,

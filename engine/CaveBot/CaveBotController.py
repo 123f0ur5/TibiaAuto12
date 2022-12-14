@@ -83,6 +83,7 @@ class CaveBotController:
                         sleep(.1)
                 else:
                     print("successfully Located The Mark: { ", data[i]["mark"], " } Clicking On Your Position")
+                    
                     MarkLocation[0] = self.MapPosition[0] + MarkLocation[0]
                     MarkLocation[1] = self.MapPosition[1] + MarkLocation[1]
 
@@ -93,7 +94,7 @@ class CaveBotController:
             else:
                 PastPosition = [0, 0]
 
-            self.SendToClient.LeftClick(MarkLocation[0], MarkLocation[1])
+            self.SendToClient.LeftClick(MarkLocation[0], MarkLocation[1] + 24)
 
             if self.MOUSE_OPTION == 1:
                 self.SendToClient.MoveTo(PastPosition[0], PastPosition[1])
